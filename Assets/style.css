@@ -37,10 +37,27 @@ header {
   width: 45%;
 }
 .text p {
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
 input {
   width: 100%;
-  height: 30px;
+  height: 25px;
   display: inline-block;
+}
+footer {
+  width: 100%;
+  margin-top: 20px;
+}
+footer .cut-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .cut-line span {
+  width: 33.33%;
+  text-align: center;
+}
+footer .cut-line span:nth-child(odd) {
+  height: 1px;
+  border-top: 1px dashed #000;
 }
